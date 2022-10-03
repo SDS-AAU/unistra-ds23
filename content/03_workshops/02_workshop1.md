@@ -13,11 +13,11 @@ We will:
 - generate search strings based on extracted keywords (cTF-IDF)
 - search patent documents and identify related technologies (Using Annoy)
 
-Data for the project [Download](https://sds-aau.github.io/UNISTRA-DS-2022/workshops/2021/sci_pat_match.zip)
+Data for the project [Download](https://sds-aau.github.io/unistra-ds23/workshops/2021/sci_pat_match.zip)
 
 Follow the day one notebook here: [:::: HERE ::::](https://colab.research.google.com/drive/1Q656jX1D04uyLSBnyceZBQrVavV7mB83?usp=sharing)
 
-Finished notebook (not well commented): [:::: HERE ::::](https://colab.research.google.com/github/SDS-AAU/UNISTRA-DS-2022/blob/master/static/workshops/2021/UNISTRAw2_sci_pat_link.ipynb)
+Finished notebook (not well commented): [:::: HERE ::::](https://colab.research.google.com/github/SDS-AAU/unistra-ds23/blob/master/static/workshops/2021/UNISTRAw2_sci_pat_link.ipynb)
 
 Let me know if you have questions abour the notebook.
 

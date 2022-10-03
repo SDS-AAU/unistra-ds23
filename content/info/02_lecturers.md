@@ -8,7 +8,7 @@ summary: "The team of lecturers."
 
 ### [Daniel S. Hain](https://vbn.aau.dk/en/persons/126725)
 
-![dsh](https://sds-aau.github.io/UNISTRA-DS-2022/images/dsh_head.png)
+![dsh](https://sds-aau.github.io/unistra-ds23/images/dsh_head.png)
 
 Associate Professor in Innovation Studies and Data Science at Aalborg University. 
 E-mail: [dsh@business.aau.dk]((mailto:dsh@business.aau.dk))

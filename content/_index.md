@@ -1,5 +1,5 @@
 ---
-title: "Network Analysis and NLP 2022"
+title: "Network Analysis and NLP 2022/23"
 ---
 
 This page will represent the central hub for teaching material. At SDS we believe in the power of open science and open education. We make all our material available outside password protected university systems.

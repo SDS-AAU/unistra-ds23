@@ -1,17 +1,17 @@
-baseURL = "https://sds-aau.github.io/UNISTRA-DS-2022/"
+baseURL = "https://sds-aau.github.io/unistra-ds23/"
 staticDir = 'static'
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "Networks and NLP 2022"
+title = "Networks and NLP 2022/23"
 theme = "hugo-theme-learn"
 themesdir = "themes"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  # editURL = "https://github.com/SDS-AAU/UNISTRA-DS-2022/tree/master/content"
-  description = "Networks and NLP 2022"
+  # editURL = "https://github.com/SDS-AAU/unistra-ds23/tree/master/content"
+  description = "Networks and NLP 2023"
   author = "Roman Jurowetzki & Daniel Hain"
   showVisitedLinks = true
   disableBreadcrumb = false
