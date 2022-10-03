@@ -3,7 +3,7 @@
 title: "Workshop 1 - Advanced Applications with NLP and Networks"
 weight: 3
 disableToc: true
-draft: false
+draft: true
 ---
 
 In this workshop we will explore some advanced applications that can be approached with NLP tooling and in combination with what you already know. That includes e.g. semantic networks, semantic search, recommender systems.

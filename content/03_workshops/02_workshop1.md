@@ -3,7 +3,7 @@
 title: "Workshop 2 - Science-Patent Matching"
 weight: 4
 disableToc: true
-draft: false
+draft: true
 ---
 
 Today we will be trying to build a science-patent linking pipeline.

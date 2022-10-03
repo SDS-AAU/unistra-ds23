@@ -1,6 +1,7 @@
 ---
 title: "NLP - Final Assignment"
 weight: 5
+draft: true
 ---
 
 ## What to do?
