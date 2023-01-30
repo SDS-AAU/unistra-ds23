@@ -146,9 +146,9 @@ Your task is to identify the key players in AI in Europe that extend beyond the 
 
 * [Starter EU AI companies starter](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2_mapping_european_ai_starter.ipynb
 )
-<!---
-* [Starter EU AI companies](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M2_mapping_european_ai.ipynb)
 
+<!---
+* [EU AI companies](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M2_mapping_european_ai.ipynb)
 
 --->
 
