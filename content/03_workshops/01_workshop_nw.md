@@ -6,20 +6,20 @@ disableToc: true
 
 ## Practical info
 
-Place: SP213
-Time: 8:15 - 13:20
+Time: 8:00 - 12
 
 
 ## Schedule for the day
 
 |           | Time        | Activity        | Data           |
 |-----------|-------------|-----------------|----------------|
-| Session 1 | 8:15-8:45   | Review Political Tweets  |[Possible Solution](https://colab.research.google.com/github/SDS-AAU/DSBA-2021/blob/master/static/notebooks/DSBA21_M2W2.ipynb)  |
-|           | 8:45-9:15   | Review Network Exercise  |  |
-| Session 2 | 9:25-10:50  | Network exploration | [Danish power elites](https://github.com/SDS-AAU/SDS-master/raw/master/00_data/networks/elite_den17.csv) |
-| Session 3 | 11:00-12:00  | European AI Companies| [EU AI Startups](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M2_mapping_european_ai.ipynb) |
-|           | 12:30-13:00 | Project Idea Pitch| |
-|           | 13:00-13:15 | Hand-out Assignment | |
+|           | 8:00-9:00   | Warmup Network Exercise  |  |
+
+| Session 2 | 9:15-10:30  | Network exploration | [Danish power elites](https://github.com/SDS-AAU/SDS-master/raw/master/00_data/networks/elite_den17.csv) |
+
+| Session 3 | 10:45-12:00  | European AI Companies| [EU AI Startups](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M2_mapping_european_ai.ipynb) |
+
+
 
 ## Dataset & Context
 
@@ -57,9 +57,10 @@ We will construct an association network: Who is being in the same board? And fi
 ## Notebooks
 
 * [Starter EU AI companies](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M2_mapping_european_ai.ipynb)
-* [Python Magteliten Analysis](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2_power_elites.ipynb)
-* [Python Magteliten Analysis](https://sds-aau.github.io/DSBA-2021/notebooks/M2_workshop_networks_R.nb.html)
 
+<!---
+* [Python Magteliten Analysis](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2_power_elites.ipynb)
+--->
 
 
 

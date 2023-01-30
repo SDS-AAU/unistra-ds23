@@ -1,6 +1,6 @@
 ---
-title: Day 1 - NLP
-weight: 1
+title: Day 2 - NLP
+weight: 2
 disableToc: true
 draft: false
 ---
