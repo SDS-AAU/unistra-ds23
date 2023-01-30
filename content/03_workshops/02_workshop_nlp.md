@@ -5,17 +5,70 @@ disableToc: true
 draft: false
 ---
 
-## Practical info
-Place: DHØ 1.52
-Time: 11:40
+![](https://github.com/aaubs/ds22/raw/gh-pages/images/viz-corgi-nlp1.png)
+Corgies doing NLP - Medieval Fresco. 2022. Roman x [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release)
 
+
+## Practical info
+A 330 - Idem-Lab
+
+8:00-13:00 & 14:00-19:00 (with breaks)
 
 ## Schedule for the day
 
-* Session 1: Review Hate-speech classifier [Notebook](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2-hatespeech-nlp-explainer-tm.ipynb)
-* Session 2: Work on NLP case in groups
-* Session 3 - 15:00-16:00: Guest Webinar - AI Implementations in SMEs (in collaboration with AI Denmark and AI 4 The People)
+* Session 1: Intro to applied NLP from word-counts to GPT.
+* Session 2: Training simple classificaiton models
+* Session 3: Exploring topics in a larger corpus
+* Session 4: Domain transfer - Linking Science & Tech. documents
+* Session 5: Quick intro to huggingface & transformers
 
+
+{{< gslides src="https://docs.google.com/presentation/d/e/2PACX-1vSfT_fL6H8QyGXvbCw3KienhPvYRE2Wwkd6tjXBQ-8j5TJqzMIR42tCtqLqNQdUAT_ud8j-m2gyRNFK/pub?start=false&loop=false&delayms=60000
+" >}}
+
+
+
+## Context
+
+This assignment is based on data from [this paper](https://ojs.aaai.org/index.php/ICWSM/article/download/14955/14805)
+> Davidson, T., Warmsley, D., Macy, M., & Weber, I. (2017, May). Automated hate speech detection and the problem of offensive language. In Proceedings of the international AAAI conference on web and social media (Vol. 11, No. 1, pp. 512-515).
+
+You are given a collection of approximately 25k tweets that have been manually (human) annotated.  ```class``` denotes: 0 - hate speech, 1 - offensive language, 2 - neither
+
+```https://github.com/SDS-AAU/SDS-master/raw/master/M2/data/twitter_hate.zip```
+
+![hatespeech](https://static.dw.com/image/56177307_303.jpg)
+
+## 1. Preprocessing and vectorizaion. 
+Justify your choices and explain possible alternatives (e.g. removing stopwords, identifying bi/tri-grams, removing verbs or use of stemming, lemmatization etc.)
+
+- Create a bag-of-words representation, apply TF-IDF and dimensionality reduction (LSA-topic modelling alternatively simply PCA or SVD) to transform your corpus into a feature matrix.
+
+## 2. Explore and compare the 2 "classes of interest" - hate speech vs offensive language. 
+
+- Can you see differences by using simple count-based approaches?
+- Can you identify themes (aka clusters / topics) that are specific for one class or another? Explore them using, e.g. simple crosstabs - topic vs. class and to get more detailed insights within-cluster top (TF-IDF) terms. (This step requires preprocessed/tokenized inputs).
+
+## 3. Build an ML model that can predict hate speech
+Use the ML pipeline (learned in M1) to build a classification model that can identify offensive language and hate speech. It is not an easy task to get good results. Experiment with different models on the two types of text-representations that you create in 2.
+
+Bonus: Explore missclassified hate speech tweets vs those correctly predicted. Can you find specific patterns? Can you observe some topics that are more prevalent in those that the model identifies correcly?
+
+The best-reported results for this dataset are.
+
+| Class         | Precision     |
+| ------------- |:-------------:|
+| 0             |0.61           |
+| 1             |0.91           |
+| 2             |0.95           |
+| Overall       |0.91           |
+
+
+## Notebook
+
+This notebook contains an extended solution.
+
+* [Hate Speech Detection](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2-hatespeech-nlp-explainer-tm.ipynb)
 
 ### Context - Exercise: Presidential Debate 2020
 
@@ -33,106 +86,11 @@ Yes, we are going back in time to the Presidential Debate in the US 2020 - the t
 Both datasets are in JSON format.
 Task: Build a classifier that can distinguish Dem/Rep tweets. Bonus: 1. Explore discussed topics; 2. find out what drives predictions.
 
-## In class Notebooks
+## Notebook
 
-* [R Solution](https://sds-aau.github.io/DSBA-2022/notebooks/NLP_workshop_1_debate_tweets.nb.html)
-* [Python Solution](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/DSBA_M2_W2_NLP_Tweets.ipynb)
+In-class-solution and add-ons (TM)
 
-<!---
+<!--
+* [Political Tweets Prediction](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2-pol_tweets_workshop.ipynb)
 
-### Introduction 
-
-#### Context: The Danish Power Elites
-
-* [Antons PhD Thesis](https://magtelite.dk/wp-content/uploads/2015/09/Anton-Grau-Larsen-PhD-Elites-in-Denmark.pdf)
-* [Brief Summary of findings (CBS)](https://www.cbs.dk/en/alumni/news/a-look-the-danish-power-elite)
-* [Journal Paper in Sociology](https://journals.sagepub.com/doi/abs/10.1177/0038038512454349)
-* More to be found with googleling...
-
-#### Data
-
-* [Github (R Repository)](https://github.com/antongrau/eliter)
-* [Magteliten website](https://magtelite.dk/data/)
-* Or, easier... on [our github](https://github.com/SDS-AAU/SDS-master/raw/master/00_data/networks/elite_den17.csv)
-
-### Tasks
-
-* Who are the most central persons?
-* Communities?
-* What characterizes them?
-* * Link up with additional data?
-
-## Workshop: AI as a Service
-
-By guest: Andreas Markussen 
-
-{{< panopto "https://cbs.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=4ee56e3e-6770-413e-abea-adc3010a580d&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&captions=false&interactivity=all">}}
-
-### Introduction 
-
-The purpose is to demonstrate a minimum viable product of an ML model deployment. Keeping with the DSBA spirit, I would keep the section hands-on. I would cover a minimal ML pipeline using data that is already preprocessed. The model will be saved to a static file and served through an API. When done, we will have created a web service from scratch, that can be used by any user in their browser. The project will be conducted in Python, with a little HTML added.
-
-
-### Structure:
-
-- Very brief introduction to how the web works - 15 mins
-- Building model and exporting to static file - 15 mins
-- Building Flask web app - 10 mins
-- Adding APIs - 10 mins
-- Adding some HTML and concluding the complete web service - 10 mins
-- Deployment to Heroku free account, short showcase of extensions and other applications (no code here) and rounding off - 15 mins
-
-### Preperation
-
-To get most of this workshop, you should have: 
-
-- Some existing knowledge of Python
-- A local installation of Python
-- Good understanding of an ML flow.
-- No understanding of the web in general
-
-
-### Materials
-
-
-- [Data {{< awesome fas fas fa-database >}}:](https://www.appliedcoding.net/uploads/all_vintages_data_set.csv)
-- [Repo {{< awesome fab fa-github >}}:](https://github.com/andreas-mar/DSBA-14-10-2021/tree/master)
-- [Slides](https://github.com/SDS-AAU/DSBA-2021/raw/master/static/notebooks/DSBA%20presentation.pdf)
-
-
-
-{{< tabs >}}
-
-{{< tab name="Joint recordings">}}
-  <h2>Assignment 1 handout</h2>
-  {{< panopto  "https://panopto.aau.dk/Panopto/Pages/Embed.aspx?id=4b2660d2-790f-49cf-84be-ada900ea3083&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" >}}
-
-{{< /tab >}}
-
-
-
-{{< tab name="R Application">}}
-<div>
-
-  <h2>R: Recording</h2>
- 
- coming soon
-
-</div>
-{{< /tab >}}
-
-
-
-{{< tab name="Python Application">}}
-<div>
-  
-  
-  <h2>Python group recoding </h2>
-  {{< panopto "https://panopto.aau.dk/Panopto/Pages/Embed.aspx?id=3c6006e6-e8e2-4ac4-a0a8-ada900ea85bc&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" >}}
-</div>
-{{< /tab >}}
-
-{{< /tabs >}}
- --->
-
-
+-->
