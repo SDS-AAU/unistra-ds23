@@ -19,6 +19,7 @@ A 330 - Idem-Lab
 * Session 1: Intro to applied NLP from word-counts to GPT.
 * Session 2: Training simple classificaiton models
 * Session 3: Exploring topics in a larger corpus
+* Session 4: Semantic similarity & semantic search [::> Here <::](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M3_workshop_sbert.ipynb)
 * Session 4: Domain transfer - Linking Science & Tech. documents
 * Session 5: Quick intro to huggingface & transformers
 
