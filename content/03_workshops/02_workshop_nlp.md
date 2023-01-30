@@ -23,8 +23,7 @@ A 330 - Idem-Lab
 * Session 5: Quick intro to huggingface & transformers
 
 
-{{< gslides src="https://docs.google.com/presentation/d/e/2PACX-1vSfT_fL6H8QyGXvbCw3KienhPvYRE2Wwkd6tjXBQ-8j5TJqzMIR42tCtqLqNQdUAT_ud8j-m2gyRNFK/pub?start=false&loop=false&delayms=6000" >}}
-
+{{<gslides src="https://docs.google.com/presentation/d/e/2PACX-1vSfT_fL6H8QyGXvbCw3KienhPvYRE2Wwkd6tjXBQ-8j5TJqzMIR42tCtqLqNQdUAT_ud8j-m2gyRNFK/pub?start=false&loop=false&delayms=60000" >}}
 
 
 ## Context
