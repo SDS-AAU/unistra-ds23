@@ -126,7 +126,7 @@ We will construct an association network: Who is being in the same board? And fi
 ### Notebooks
 
 * [Starter](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/notebooks/M2_power_elites_starter.ipynb)
-
+* [Final analysis](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2_power_elites.ipynb)
 
 <!---
 ## Solution
