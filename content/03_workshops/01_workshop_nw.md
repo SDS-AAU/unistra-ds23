@@ -11,13 +11,11 @@ Time: 8:00 - 12
 
 ## Schedule for the day
 
-|           | Time        | Activity        | Data           |
-|-----------|-------------|-----------------|----------------|
-|           | 8:00-9:00   | [Warmup Network Exercise](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M2/notebooks/Solution_M2_A1.ipynb)  |  |
-
-| Session 2 | 9:15-10:30  | Network exploration | [Danish power elites](https://github.com/SDS-AAU/SDS-master/raw/master/00_data/networks/elite_den17.csv) |
-
-| Session 3 | 10:45-12:00  | European AI Companies| [EU AI Startups](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M2_mapping_european_ai.ipynb) |
+|           | Time        | Activity                                                                                                                             | Data                                                                                                                            |
+|-----------|-------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Session 1 | 8:00-9:00   | [Warmup Network Exercise](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M2/notebooks/Solution_M2_A1.ipynb) |                                                                                                                                 |
+| Session 2 | 9:15-10:30  | Network exploration                                                                                                                  | [Danish power elites](https://github.com/SDS-AAU/SDS-master/raw/master/00_data/networks/elite_den17.csv)                        |
+| Session 3 | 10:45-12:00 | European AI Companies                                                                                                                | [EU AI Startups](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M2_mapping_european_ai.ipynb) |
 
 
 # Warm up: Manager Networks
