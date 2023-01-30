@@ -19,7 +19,6 @@ A 330 - Idem-Lab
 * Session 1: Intro to applied NLP from word-counts to GPT.
 * Session 2: Training simple classificaiton models
 * Session 3: Exploring topics in a larger corpus
-* Session 4: Semantic similarity & semantic search [::> Here <::](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M3_workshop_sbert.ipynb)
 * Session 4: Domain transfer - Linking Science & Tech. documents
 * Session 5: Quick intro to huggingface & transformers
 
@@ -104,3 +103,18 @@ In-class-solution and add-ons (TM)
 * [Political Tweets Prediction](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2-pol_tweets_workshop.ipynb)
 
 -->
+
+
+## Topic Modelling with LDA
+
+Modeling research on NLP from static bibliographic data and directly from OpenAlex
+[Notebook](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2-topicmodel-openalex.ipynb)
+
+
+
+## Domain transfer
+
+This tutorial will guide you through the process of generating embedding representations for academic abstracts and patent texts. By using NLP techniques, we will be able to identify topics within scientific literature and generate search strings based on the extracted keywords using cTF-IDF method. Finally, we will search patent documents and identify related technologies using the Annoy library.
+
+[Notebook](https://colab.research.google.com/github/aaubs/ds-master/blob/main/UNISTRA_w2v_sci_pat_link.ipynb)
+
