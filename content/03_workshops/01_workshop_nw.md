@@ -17,7 +17,6 @@ Time: 8:00 - 12
 | Session 2 | 9:15-10:30  | Network exploration                                                                                                                  | [Danish power elites](https://github.com/SDS-AAU/SDS-master/raw/master/00_data/networks/elite_den17.csv)                        |
 | Session 3 | 10:45-12:00 | European AI Companies                                                                                                                | [EU AI Startups](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2_mapping_european_ai_starter.ipynb) |
 
-https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2_mapping_european_ai_starter.ipynb
 # Warm up: Manager Networks
 
 ## Introduction
