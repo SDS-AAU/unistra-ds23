@@ -123,6 +123,10 @@ We will construct an association network: Who is being in the same board? And fi
 * What characterizes them?
 * Link up with additional data?
 
+### Notebooks
+
+* [Starter](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/notebooks/M2_power_elites_starter.ipynb)
+
 
 <!---
 ## Solution
