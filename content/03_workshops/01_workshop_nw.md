@@ -1,7 +1,7 @@
 ---
-title: Day 2 - Networks
-weight: 2
-disableToc: true
+title: Day 1 - Networks
+weight: 1
+disableToc: false
 ---
 
 ## Practical info
@@ -15,9 +15,9 @@ Time: 8:00 - 12
 |-----------|-------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Session 1 | 8:00-9:00   | [Warmup Network Exercise](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M2/notebooks/Solution_M2_A1.ipynb) |                                                                                                                                 |
 | Session 2 | 9:15-10:30  | Network exploration                                                                                                                  | [Danish power elites](https://github.com/SDS-AAU/SDS-master/raw/master/00_data/networks/elite_den17.csv)                        |
-| Session 3 | 10:45-12:00 | European AI Companies                                                                                                                | [EU AI Startups](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M2_mapping_european_ai.ipynb) |
+| Session 3 | 10:45-12:00 | European AI Companies                                                                                                                | [EU AI Startups](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2_mapping_european_ai_starter.ipynb) |
 
-
+https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2_mapping_european_ai_starter.ipynb
 # Warm up: Manager Networks
 
 ## Introduction
@@ -131,11 +131,21 @@ We will construct an association network: Who is being in the same board? And fi
 --->
 
 # EU Start-Ups
-<!---
+
+![](https://source.unsplash.com/VBLHICVh-lI)
+
+In this exercise, we will analyze the company-link network of startups listed in the [European AI Landscape](https://www.ai-startups-europe.eu). In a collaboration with [istari.ai](https://istari.ai), we scraped links from all of their webpages, resulting in a dataset of around 1000 companies.
+Your task is to identify the key players in AI in Europe that extend beyond the initial list.
+
+
 
 ## Notebooks
 
+* [Starter EU AI companies starter](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2_mapping_european_ai_starter.ipynb
+)
+<!---
 * [Starter EU AI companies](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M2_mapping_european_ai.ipynb)
+
 
 --->
 
