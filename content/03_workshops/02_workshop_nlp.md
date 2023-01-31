@@ -19,15 +19,15 @@ A 330 - Idem-Lab
 * Session 1: Intro to applied NLP from word-counts to GPT.
 * Session 2: Training simple classificaiton models
 * Session 3: Exploring topics in a larger corpus
-* Session 4: Domain transfer - Linking Science & Tech. documents
-* Session 5: Quick intro to huggingface & transformers
+* Session 4: Semantic similarity & search
+* Session 5: Domain transfer - Linking Science & Tech. documents
+* Session 6: Quick intro to huggingface & transformers
 
 
 ## Resources
 - LDA [Topic Modeling Tutorial](https://colab.research.google.com/github/RJuro/ga22/blob/main/ga22/tutorials/LDA_Cordis.ipynb)
 - BERTopic [Topic Modeling Tutorial](https://colab.research.google.com/github/RJuro/ga22/blob/main/ga22/tutorials/BERTopic_Cordis.ipynb)
--
-
+_ [Semantic Similarity tutorial](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M3_workshop_sbert.ipynb)
 
 ## Intro to applied NLP
 
