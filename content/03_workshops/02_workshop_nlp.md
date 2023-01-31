@@ -1,8 +1,8 @@
 ---
 title: Day 2 - NLP
 weight: 2
-disableToc: true
-draft: false
+disableToc: false
+draft: fals
 ---
 
 ![](https://github.com/aaubs/ds22/raw/gh-pages/images/viz-corgi-nlp1.png)
@@ -10,7 +10,8 @@ Corgies doing NLP - Medieval Fresco. 2022. Roman x [Stable Diffusion](https://st
 
 
 ## Practical info
-A 330 - Idem-Lab
+Place: A 330 - Idem-Lab
+Time: 8:00-13:00 & 14:00-19:00 (variable breaks)
 
 8:00-13:00 & 14:00-19:00 (with breaks)
 
@@ -27,7 +28,7 @@ A 330 - Idem-Lab
 ## Resources
 - LDA [Topic Modeling Tutorial](https://colab.research.google.com/github/RJuro/ga22/blob/main/ga22/tutorials/LDA_Cordis.ipynb)
 - BERTopic [Topic Modeling Tutorial](https://colab.research.google.com/github/RJuro/ga22/blob/main/ga22/tutorials/BERTopic_Cordis.ipynb)
-_ [Semantic Similarity tutorial](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M3_workshop_sbert.ipynb)
+- [Semantic Similarity tutorial](https://colab.research.google.com/github/SDS-AAU/DSBA-2022/blob/master/notebooks/M3_workshop_sbert.ipynb)
 
 ## Intro to applied NLP
 
@@ -99,10 +100,9 @@ Task: Build a classifier that can distinguish Dem/Rep tweets. Bonus: 1. Explore 
 
 In-class-solution and add-ons (TM)
 
-<!--
+
 * [Political Tweets Prediction](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M2-pol_tweets_workshop.ipynb)
 
--->
 
 
 ## Topic Modelling with LDA
