@@ -1,7 +1,7 @@
 ---
 title: "NLP - Final Assignment"
 weight: 5
-draft: true
+draft: false
 ---
 
 ## Task
