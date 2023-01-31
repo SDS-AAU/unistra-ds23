@@ -1,6 +1,6 @@
 ---
 title: Exercises
-weight: 1
+weight: 9
 disableToc: true
 draft: false
 ---
