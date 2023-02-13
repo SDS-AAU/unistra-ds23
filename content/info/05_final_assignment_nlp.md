@@ -16,6 +16,6 @@ draft: false
 ## Information
 
 * Submission format: Github repository with well commented ipython notebook and readme.md.
-* **Deadline:** 15.2.2022; 23:59 🤓
+* **Deadline:** 17.2.2022; 23:59 🤓 **EXTENDED**
 * Submit link to github repository to Roman (roman@business.aau.dk) and/cc Daniel (dsh@business.aau.dk)
 * Please write if you have further questions.
